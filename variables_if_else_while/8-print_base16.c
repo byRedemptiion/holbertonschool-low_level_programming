@@ -8,17 +8,15 @@
 int main(void)
 {
 int number = 0;
-char letter = 'a';
 while (number <= 9)
 {
 putchar(number + '0');
-number++;
-}
-
-while (letter <= 'f')
+if (number != 9)
 {
-putchar(letter);
-letter++;
+putchar (',');
+putchar (' ');
+}
+number++;
 }
 putchar('\n');
 return (0);
