@@ -5,7 +5,7 @@
  * @n: The number to print the sign of
  * Return: 1 if n is positive, -1 if n is negative, 0 if n is zero
  */
-int _print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
