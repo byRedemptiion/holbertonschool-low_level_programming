@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
-* main - Ecole de Putchar
-*
-* Return: Add de print_alphabet
-*/
+ * print_alphabet - Prints the alphabet in lowercase
+ */
 void print_alphabet(void)
 {
 	char a;
