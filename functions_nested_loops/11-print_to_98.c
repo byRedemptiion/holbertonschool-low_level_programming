@@ -6,7 +6,7 @@
  */
 void print_to_98(int n)
 {
-	int direction = (n <= 98) ? 1 : -1;
+	int print_to_98 = (n <= 98) ? 1 : -1;
 
 	while (1)
 	{
@@ -20,7 +20,7 @@ void print_to_98(int n)
 			break;
 		_putchar(',');
 		_putchar(' ');
-		n += direction;
+		n += print_to_98;
 	}
 	_putchar('\n');
 }
