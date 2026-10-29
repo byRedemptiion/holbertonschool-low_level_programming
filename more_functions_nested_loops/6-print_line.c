@@ -1,23 +1,17 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 10 times the numbers from 0 to 14
+ * print_line - draws a straight line in the terminal
+ * @n: number of underscores to print
  */
-void more_numbers(void)
+void print_line(int n)
 {
 	int i;
-	int j;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j <= 14; j++)
-		{
-			if (j >= 10)
-			{
-				_putchar(j / 10 + '0');
-			}
-			_putchar(j % 10 + '0');
-		}
-		_putchar('\n');
+		_putchar('_');
 	}
+
+	_putchar('\n');
 }
