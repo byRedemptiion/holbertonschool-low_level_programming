@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - prints numbers from 0 to 9
+ * _putchar - prints a character to stdout
  */
 void print_numbers(void)
 {
